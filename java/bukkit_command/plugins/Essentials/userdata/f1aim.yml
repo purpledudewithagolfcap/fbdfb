@@ -1,0 +1,32 @@
+timestamps:
+  login: 1696530704509
+  lastteleport: 1696531049166
+  logout: 1696531066404
+ipAddress: 127.0.0.1
+afk: false
+nickname: §ff1aim
+powertools:
+  '69':
+  - back
+  '388':
+  - tree
+  '369':
+  - thor
+  '6':
+  - tree
+  '76':
+  - fireball
+lastlocation:
+  world: world
+  x: 40.817211987468035
+  y: 67.0
+  z: 69.28879173702978
+  yaw: -63.599976
+  pitch: 11.549993
+logoutlocation:
+  world: world
+  x: 231.9965081757207
+  y: 89.0
+  z: 202.40504151227503
+  yaw: -82.50001
+  pitch: -25.349995

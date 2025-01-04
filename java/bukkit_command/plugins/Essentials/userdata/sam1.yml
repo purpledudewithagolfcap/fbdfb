@@ -1,0 +1,21 @@
+timestamps:
+  login: 1719526035230
+  lastteleport: 1719428611796
+  logout: 1719527671985
+ipAddress: 127.0.0.1
+nickname: sam
+lastlocation:
+  world: world_nether
+  x: -5.467457780496908
+  y: 44.0
+  z: 65.22827494620697
+  yaw: -332.79898
+  pitch: 60.96688
+logoutlocation:
+  world: world
+  x: 284.30000001192093
+  y: 42.0
+  z: 280.4278376769603
+  yaw: 288.15167
+  pitch: 11.966507
+afk: false

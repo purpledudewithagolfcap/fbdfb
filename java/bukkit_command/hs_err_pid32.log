@@ -1,0 +1,130 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007fadac0c0097, pid=32, tid=0x00007fad94bfb640
+#
+# JRE version: OpenJDK Runtime Environment (8.0_302-b07) (build 1.8.0_302-b07)
+# Java VM: OpenJDK 64-Bit Server VM GraalVM CE 21.2.0 (25.302-b07-jvmci-21.2-b08 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# V  [libjvm.so+0xac1097]  RuntimeService::record_safepoint_synchronized()+0x57
+#
+# Core dump written. Default location: /home/runner/EaglerCraft-Server/java/bukkit_command/core or core.32
+#
+# If you would like to submit a bug report, please visit:
+#   https://github.com/oracle/graal/issues
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fada4122800):  VMThread [stack: 0x00007fad94afc000,0x00007fad94bfc000] [id=58]
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007fadaaf545d0
+
+Registers:
+RAX=0x000000072faff16f, RBX=0x00007fada4016590, RCX=0x0000000000000000, RDX=0x00007fadaaf545d0
+RSP=0x00007fad94bfa9b0, RBP=0x00007fad94bfa9c0, RSI=0x0000000000000000, RDI=0x0000000000000000
+R8 =0x0000000000000000, R9 =0x0000000000000000, R10=0x0000000000000000, R11=0x0000000000000000
+R12=0x00007fadac70b46c, R13=0x0000000000000000, R14=0x431bde82d7b634db, R15=0x0000000000000000
+RIP=0x00007fadac0c0097, EFLAGS=0x0000000000010202, CSGSFS=0x002b000000000033, ERR=0x0000000000000007
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007fad94bfa9b0)
+0x00007fad94bfa9b0:   00007fad38001710 0000000000000000
+0x00007fad94bfa9c0:   00007fad94bfaaf0 00007fadac0c637c
+0x00007fad94bfa9d0:   00007fad94bfaa40 00007fada40089a0
+0x00007fad94bfa9e0:   0000000000000000 0000000000000000
+0x00007fad94bfa9f0:   000000100000d392 0000000000000000
+0x00007fad94bfaa00:   0000000000000004 0000000000000000
+0x00007fad94bfaa10:   00007fadac6d9081 00007fad00000000
+0x00007fad94bfaa20:   00007fada4123800 00000000000003e8
+0x00007fad94bfaa30:   00007fada4122800 00007fadac7152cc
+0x00007fad94bfaa40:   00007fad94bfaa90 00007fadabfc3ca7
+0x00007fad94bfaa50:   00007fadac70b083 00007fada4008ac0
+0x00007fad94bfaa60:   00007fad94bfaa80 00007fada4008aa0
+0x00007fad94bfaa70:   0000000000000000 0000000000000001
+0x00007fad94bfaa80:   00000000000003e8 00007fada4122800
+0x00007fad94bfaa90:   00007fad94bfaaf0 00007fadabfc4eea
+0x00007fad94bfaaa0:   0000000000000000 00007fad381f6000
+0x00007fad94bfaab0:   00007fad94bfaaf0 00007fad001f6028
+0x00007fad94bfaac0:   00007fada4008b20 0000000000000000
+0x00007fad94bfaad0:   00007fadac714a78 00007fada4008aa0
+0x00007fad94bfaae0:   00007fada4008aa0 0000000000000001
+0x00007fad94bfaaf0:   00007fad94bfada0 00007fadac1ef7ca
+0x00007fad94bfab00:   00007fad94bfab50 00007fad94bfab10
+0x00007fad94bfab10:   00007fada4122800 00007fada4123060
+0x00007fad94bfab20:   00007fada41230a0 00007fada41230b0
+0x00007fad94bfab30:   00007fada4123188 00000000000000d8
+0x00007fad94bfab40:   00007fada4123290 0000000000000000
+0x00007fad94bfab50:   00007fad94bfab58 6e69747563657845
+0x00007fad94bfab60:   65706f204d562067 203a6e6f69746172
+0x00007fad94bfab70:   6942656b6f766552 00656e6f64207361
+0x00007fad94bfab80:   6974616300656e6f 00656e6f64206e6f
+0x00007fad94bfab90:   00007fad94bf0065 00007fadac01eb08
+0x00007fad94bfaba0:   0000000000000000 0000000000000009 
+
+Instructions: (pc=0x00007fadac0c0097)
+0x00007fadac0c0077:   c4 08 5b 5d c3 0f 1f 40 00 48 8b 1d 69 97 65 00
+0x00007fadac0c0087:   48 8d 3d 6a 97 65 00 e8 3d 75 0d 00 48 8b 53 28
+0x00007fadac0c0097:   48 01 02 eb b9 0f 1f 40 00 55 48 89 e5 53 48 83
+0x00007fadac0c00a7:   ec 18 48 8b 05 90 eb 60 00 80 38 00 75 3b 48 8d 
+
+Register to memory mapping:
+
+RAX=0x000000072faff16f is an unknown value
+RBX=0x00007fada4016590 is an unknown value
+RCX=0x0000000000000000 is an unknown value
+RDX=0x00007fadaaf545d0 is an unknown value
+RSP=0x00007fad94bfa9b0 is an unknown value
+RBP=0x00007fad94bfa9c0 is an unknown value
+RSI=0x0000000000000000 is an unknown value
+RDI=0x0000000000000000 is an unknown value
+R8 =0x0000000000000000 is an unknown value
+R9 =0x0000000000000000 is an unknown value
+R10=0x0000000000000000 is an unknown value
+R11=0x0000000000000000 is an unknown value
+R12=0x00007fadac70b46c: <offset 0x110c46c> in /nix/store/x26gyx3nb3kx580i4r9qg9q1iw45xbp9-graalvm8-ce/jre/lib/amd64/server/libjvm.so at 0x00007fadab5ff000
+R13=0x0000000000000000 is an unknown value
+R14=0x431bde82d7b634db is an unknown value
+R15=0x0000000000000000 is an unknown value
+
+
+Stack: [0x00007fad94afc000,0x00007fad94bfc000],  sp=0x00007fad94bfa9b0,  free space=1018k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xac1097]  RuntimeService::record_safepoint_synchronized()+0x57
+V  [libjvm.so+0xac737c]  SafepointSynchronize::begin()+0x4ec
+V  [libjvm.so+0xbf07ca]  VMThread::loop()+0x21a
+V  [libjvm.so+0xbf0d5c]  VMThread::run()+0xac
+V  [libjvm.so+0xa13d02]  java_start(Thread*)+0x102
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007fad38ba6800 JavaThread "File IO Thread" [_thread_blocked, id=171, stack(0x00007fad259ff000,0x00007fad25b00000)]
+  0x00007fad38053000 JavaThread "pool-1-thread-1" [_thread_blocked, id=167, stack(0x00007fad26cff000,0x00007fad26e00000)]
+  0x00007fad38078000 JavaThread "Listen thread" [_thread_in_native, id=121, stack(0x00007fad4c0b7000,0x00007fad4c1b8000)]
+  0x00007fad38004800 JavaThread "Thread-5" daemon [_thread_in_native, id=104, stack(0x00007fad4c9fd000,0x00007fad4cafe000)]
+  0x00007fada400a000 JavaThread "DestroyJavaVM" [_thread_blocked, id=51, stack(0x00007fadab3be000,0x00007fadab4be000)]
+  0x00007fada4337800 JavaThread "Server thread" [_thread_blocked, id=103, stack(0x00007fad4cafe000,0x00007fad4cbff000)]
+  0x00007fada4336800 JavaThread "Thread-4" daemon [_thread_blocked, id=102, stack(0x00007fad4cbff000,0x00007fad4cd00000)]
+  0x00007fada42c4000 JavaThread "Snooper Timer" daemon [_thread_blocked, id=85, stack(0x00007fad510ff000,0x00007fad51200000)]
+  0x00007fad58033800 JavaThread "Libgraal MBean Registration" daemon [_thread_blocked, id=77, stack(0x00007fad8c0fe000,0x00007fad8c1ff000)]
+  0x00007fada41d9000 JavaThread "CrashLoopDetector" daemon [_thread_blocked, id=74, stack(0x00007fad8cbcd000,0x00007fad8ccce000)]
+  0x00007fada4174800 JavaThread "Service Thread" daemon [_thread_blocked, id=71, stack(0x00007fad9400f000,0x00007fad94110000)]
+  0x00007fada4167800 JavaThread "C1 CompilerThread1" daemon [_thread_blocked, id=69, stack(0x00007fad94111000,0x00007fad94311000)]
+  0x00007fada4164800 JavaThread "JVMCI-native CompilerThread0" daemon [_thread_blocked, id=66, stack(0x00007fad94312000,0x00007fad94512000)]
+  0x00007fada4161800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=64, stack(0x00007fad94512000,0x00007fad94613000)]
+  0x00007fada412f000 JavaThread "Finalizer" daemon [_thread_blocked, id=62, stack(0x00007fad948f9000,0x00007fad949fa000)]
+  0x00007fada412a800 JavaThread "Reference Handler" daemon [_thread_blocked, id=60, stack(0x00007fad949fa000,0x00007fad94afb000)]
+
+Other Threads:
+=>0x00007fada4122800 VMThread [stack: 0x00007fad94afc000,0x00007fad94bfc000] [id=58]
+  0x00007fada417a000 WatcherThread [stack: 0x00007fad8ff00000,0x00007fad90000000] [id=72]
+
+VM state:at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007fada40089a0] Safepoint_lock - owner thread: 0x00007fada4122800
+[0x00007fada4008a20] Threads_lock - owner thread: 0x00007fada4122800
+
+heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit

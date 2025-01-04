@@ -1,0 +1,22 @@
+timestamps:
+  login: 1699469642242
+  logout: 1699469787045
+  kits:
+    tools: 1699469724808
+  lastteleport: 1699469783266
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world_nether
+  x: 29.5
+  y: 61.0
+  z: 24.5
+  yaw: 0.0
+  pitch: 0.0
+afk: false
+lastlocation:
+  world: world
+  x: 233.5
+  y: 64.0
+  z: 202.5
+  yaw: -70.79415
+  pitch: 6.787884

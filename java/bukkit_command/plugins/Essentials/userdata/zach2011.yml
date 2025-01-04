@@ -1,0 +1,29 @@
+timestamps:
+  login: 1701886479799
+  kits:
+    tools: 1696529013053
+  logout: 1701886532607
+  lastteleport: 1696530864610
+ipAddress: 127.0.0.1
+afk: false
+logoutlocation:
+  world: world
+  x: 241.00469907075006
+  y: 94.0
+  z: 169.3193875567414
+  yaw: -239.55017
+  pitch: 53.85
+money: '90.0'
+ban:
+  timeout: 0
+  reason: '§4Banned:
+
+    §rabuse'
+lastlocation:
+  world: world
+  x: 29.36976565568844
+  y: 69.49064318920136
+  z: 66.89382402571106
+  yaw: -286.35
+  pitch: 48.599995
+nickname: §fzach2011
